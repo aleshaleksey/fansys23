@@ -1169,6 +1169,7 @@ When a character first gains the "elementalism" ability for an element, they cho
 - Ice
 - Light (aspects of air and fire)
 - Lightning (aspect of air, water and fire)
+- Necrotic (OPTIONAL: Not an element, but follows the same rules)
 
 A character then picks one of the following two forms:
 
@@ -1195,7 +1196,7 @@ ___
 - Damage:
   - [[Base]d8 + [WIS]] natural percussive/shear (earth).
   - [[Base]d8 + [WIS]] natural pressure (air).
-  - [[Base]d6 + [WIS]] (fire or ice).
+  - [[Base]d6 + [WIS]] (fire, ice or necrotic).
   - [[Base]d4 + [WIS]] for lightning or light.
 - Dice: MP (base dice cost = 0).
 - Per dice: 1 extra damage die / MP die.
@@ -1220,7 +1221,8 @@ An elementalism can only have one form, which is declared before any rolls are m
 |Air|D8|percussive/shear [natural]|STR|Causes damage to structures and objects affected|
 |Earth|D8|pressure [natural]|STR|See below|
 |Fire|D6|fire [supernatural]|CON|See below|
-|Ice|D6|cold [supernatural]|CON|*Will** freeze 1 gallon of water, + 1 gallon / MP dice.|
+|Ice|D6|cold [supernatural]|CON|*Will* freeze 1 gallon of water, + 1 gallon / MP dice.|
+|Necrotic|D6|necrotic [supernatural]|CON|*Will* kill small plant-life in a 5 ft square.|
 |Light|D4|light [supernatural]|CHA|Sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft)|
 |Lightning|D4|lightning [supernatural]|CON|See below|
 
@@ -1243,18 +1245,20 @@ ____
 
 An elementalism for each element can be enhanced with the following effects/conditions. The effect is declared before any rolls are made. An elementalism does not require an effect, and many elementalists prefer simpler elementalisms with only an element and form.
 
-|Effect       |Element Prerequisite  |Other Prerequisites|MP die cost|
-|-------------|----------------------|-------------------|-----------|
-|Prone        |Air or Earth          |-                  |1          |
-|Shove (10ft) |Air or Earth          |-                  |1          |
-|Aphonic      |Air or Lightning      |-                  |1          |
-|Deafened     |Air or Lightning      |-                  |1          |
-|Glowing      |Light                 |-                  |1          |
-|Frightened   |Fire or Lightning     |Base = 2           |1          |
-|Blinded      |Fire, Light, Lightning|Base = 2           |2          |
-|Incapacitated|Fire or Lightning     |Base = 2           |2          |
-|Restrained   |Ice or Earth          |Base = 2           |2          |
-|Catatonic    |Light or Fire         |Base = 2           |2          |
+|Effect       |Element Prerequisite             |Other Prerequisites|MP die cost|
+|-------------|---------------------------------|-------------------|-----------|
+|Aphonic      |Air or Lightning                 |-                  |1          |
+|Bleeding     |Air or Necrotic                  |-                  |1          |
+|Deafened     |Air or Lightning                 |-                  |1          |
+|Glowing      |Light                            |-                  |1          |
+|Prone        |Air or Earth                     |-                  |1          |
+|Shove (10ft) |Air or Earth                     |-                  |1          |
+|Frightened   |Fire or Lightning                |Base = 2           |1          |
+|Blinded      |Fire, Light, Lightning, Necrotic |Base = 2           |2          |
+|Catatonic    |Light or Fire                    |Base = 2           |2          |
+|Crippled     |Air, Earth, Necrotic             |Base = 2           |2          |
+|Incapacitated|Fire or Lightning                |Base = 2           |2          |
+|Restrained   |Ice or Earth                     |Base = 2           |2          |
 
 The "shove" and "prone" effect are immediate and do not require repeated save. The remaining effects persist for up to 1 minute, and allow a save at the end of each of the target's turns.
 

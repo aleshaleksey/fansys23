@@ -38,9 +38,10 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Headwind](#headwind)
 - [Least Flare](#least-flare)
 - [Least Heal](#least-heal)
+- [Least Vengeance](#least-vengeance)
 - [Least Weather Control](#least-weather-control)
 - [Lesser Illusory Self](#lesser-illusory-self)
-- [Least Vengeance](#least-vengeance)
+- [Lesser Mirage](#lesser-mirage)
 - [Sense Spell](#sense-spell)
 - [Shape Earth](#shape-earth)
 - [Spirits' Secret](#spirits-secret)
@@ -850,6 +851,41 @@ Thus, for example, if the target is disguised as a winged, and the illusory wing
 **Upcast**: For every extra MP die above 1, the spell either lasts for an extra hour, or affects an additional target.
 
 **Global**: The spell lasts for a week.
+
+___
+### Lesser Mirage
+
+|Name|Lesser Mirage [Air, Spiritual, Spring, Water, Winter]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|10ft radius|3
+|Casting time|"full round action"|-2(1)
+|Range|30ft|1(2)
+|Duration|12 min|+3(6)
+|Components|kinetic|
+|Focus|A small mirror|-1(5)
+|Limitations||-2(3)
+|Save|WIS|
+
+**Description**: The caster creates a illusionary scene which mimics the real scene purely visually (to the sense of sight). It can do no damage. The scene realistically mimics a real scene, at first glance, but has no material substance. For example:
+
+- An illusionary bridge over a river will hold no weight, but if a rock is thrown at it might show the rock bouncing a few steps along the bridge and coming to rest on it (in the meanwhile the real rock passes straight through it).
+- An illusionary bonfire would fail to melt a block of ice at some distance (although if the ice is placed inside of the area of the "mirage" it would *appear* to melt).
+
+An illusion can be broken in the following manner:
+
+- At a distance, when interacting with the illusion from outside of it, an entity may attempt to disbelieve, and roll a WIS save at disadvantage against the caster's threshold.
+- When interacting with the illusion from inside it, it may attempt disbelieve it and roll a WIS save against the caster's threshold.
+- When an entity interacts with the illusion in such a way that the illusion seems implausible or suspicious (eg a bonfire failing to melt a block of ice, or the target falling through the bridge), it may roll a WIS save at advantage.
+- If the entity has some magic sense, it makes a WIS save against the illusion as soon as it detects it.
+- If the entity has "true seeing" it automatically sees through the illusion.
+
+**Special**: Multiple rolls to disbelieve can be made, however, all rolls following an initial failure are made at disadvantage.
+
+**Upcast**: For every extra MP die above 1, the duration increases by 12 min, the radius increases by 5ft, or an extra sense can be included (excluding touch or pain).
+
+
 
 ___
 ### Least Vengeance
@@ -2982,6 +3018,8 @@ An illusion can be broken in the following manner:
 **Special**: Multiple rolls to disbelieve can be made, however, all rolls following an initial failure are made at disadvantage.
 
 **Upcast**: For every extra MP die above 4, the duration increases by 12 min or the radius increases by 5ft.
+
+- If 6 MP dice or more are used (12 for global) for casting the spell, the sensation of touch is also replicated. This does not allow the mirage to cause damage or pain, nor does it allow it to support weight or resist physical force. The touch is an illusion.
 
 **Global**: The mirage lasts for a day and has a radius of 400ft. For every 2 MP dice above 8 the mirage lasts for an extra day, or its radius increases by 400ft.
 
@@ -5444,6 +5482,7 @@ ____
     - [Least Flare](#least-flare)
     - [Least Weather Control](#least-weather-control)
     - [Lesser Illusory Self](#lesser-illusory-self)
+    - [Lesser Mirage](#lesser-mirage)
     - [Sense Spell](#sense-spell)
     - [Spirits' Secret](#spirits-secret)
     - [Tailwind](#tailwind)
@@ -5462,6 +5501,7 @@ ____
     - [Chill Blood](#chill-blood)
     - [Least Weather Control](#least-weather-control)
     - [Lesser Illusory Self](#lesser-illusory-self)
+    - [Lesser Mirage](#lesser-mirage)
     - [Least Vengeance](#least-vengeance)
     - [Sense Spell](#sense-spell)
     - [Water Snake](#water-snake)
@@ -5474,6 +5514,7 @@ ____
 - Kinetic
     - [Enflame](#enflame)
     - [Lesser Illusory Self](#lesser-illusory-self)
+    - [Lesser Mirage](#lesser-mirage)
     - [Shape Earth](#shape-earth)
     - [Spirits' Secret](#spirits-secret)
     - [Winter's Touch](#winters-touch)

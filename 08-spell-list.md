@@ -41,7 +41,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Least Vengeance](#least-vengeance)
 - [Least Weather Control](#least-weather-control)
 - [Lesser Illusory Self](#lesser-illusory-self)
-- [Lesser Mirage](#lesser-mirage)
+- [Figment](#figment)
 - [Sense Spell](#sense-spell)
 - [Shape Earth](#shape-earth)
 - [Spirits' Secret](#spirits-secret)
@@ -853,9 +853,9 @@ Thus, for example, if the target is disguised as a winged, and the illusory wing
 **Global**: The spell lasts for a week.
 
 ___
-### Lesser Mirage
+### Figment
 
-|Name|Lesser Mirage [Air, Spiritual, Spring, Water, Winter]|
+|Name|Figment [Air, Spiritual, Spring, Water, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -871,7 +871,7 @@ ___
 **Description**: The caster creates a illusionary scene which mimics the real scene purely visually (to the sense of sight). It can do no damage. The scene realistically mimics a real scene, at first glance, but has no material substance. For example:
 
 - An illusionary bridge over a river will hold no weight, but if a rock is thrown at it might show the rock bouncing a few steps along the bridge and coming to rest on it (in the meanwhile the real rock passes straight through it).
-- An illusionary bonfire would fail to melt a block of ice at some distance (although if the ice is placed inside of the area of the "mirage" it would *appear* to melt).
+- An illusionary bonfire would fail to melt a block of ice at some distance (although if the ice is placed inside of the area of the illusion it would *appear* to melt).
 
 An illusion can be broken in the following manner:
 
@@ -5482,7 +5482,7 @@ ____
     - [Least Flare](#least-flare)
     - [Least Weather Control](#least-weather-control)
     - [Lesser Illusory Self](#lesser-illusory-self)
-    - [Lesser Mirage](#lesser-mirage)
+    - [Figment](#figment)
     - [Sense Spell](#sense-spell)
     - [Spirits' Secret](#spirits-secret)
     - [Tailwind](#tailwind)
@@ -5501,7 +5501,7 @@ ____
     - [Chill Blood](#chill-blood)
     - [Least Weather Control](#least-weather-control)
     - [Lesser Illusory Self](#lesser-illusory-self)
-    - [Lesser Mirage](#lesser-mirage)
+    - [Figment](#figment)
     - [Least Vengeance](#least-vengeance)
     - [Sense Spell](#sense-spell)
     - [Water Snake](#water-snake)
@@ -5514,7 +5514,7 @@ ____
 - Kinetic
     - [Enflame](#enflame)
     - [Lesser Illusory Self](#lesser-illusory-self)
-    - [Lesser Mirage](#lesser-mirage)
+    - [Figment](#figment)
     - [Shape Earth](#shape-earth)
     - [Spirits' Secret](#spirits-secret)
     - [Winter's Touch](#winters-touch)

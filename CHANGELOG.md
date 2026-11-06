@@ -737,3 +737,5 @@ ___
 ### Spells
 - Tweak [Global dispelling rules](07-magic-and-spellcasting.md#breaking-global-spells-and-curses) to make the rules clearer and more workable.
 - Tweak [Promise](08-spell-list.md#promise) to make caster aware of it being broken.
+- Tweak [Mirage](08-spell-list.md#mirage) to allow tactile illusions at higher levels.
+- Add [Figment](08-spell-list.md#figment), which is a lower level "Mirage" spell.

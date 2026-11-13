@@ -848,12 +848,17 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+20|2d10+9|(Reach=15ft) A robotic horror makes 4 attacks with its claws.|
-|[Greater Elemental Blast (Linear): Fire](../06-abilities.md#line)|+12|4d6 fire[nat]|(Range 120ft+30/MP die) The robotic horror can use up to 10 MP dice in its elemental blast.|
-|Grapple|+20|||
-|Monster Attack III||||
+|Claws|+20|2d10+9[slashing]|(Reach=15ft) A robotic horror makes 4 attacks with its claws|
+|[Elemental Canon: Fire](../06-abilities.md#line)|Threshold=24|4d6+2 fire[nat]|(Range 120ft+30/MP die) The robotic horror can use up to 10 MP dice to increase the damage of the canon by 1d6. The canon acts exactly as elementalism (linear, circle, arc) with the exception that the damage is considered natural.|
+|Combat Manoeuvres|+20||A robotic horror is proficient with all basic combat manoeuvres|
+|||||
+|Great Strike|||A robotic horror can sacrifice up to 7 points from its attack to deal an equal amount of damage with its claws.|
+|Elemental Strike: Lightning||2d4|A robotic horror can expend **1 SP die** to deal an extra 2d4 natural lightning damage to a target.|
+|Broad Strike|||A robotic horror can expend 1 SP die to target all adjacent targets with its claw attack|
+|Combined Manoeuvre II|||A robotic horror can expend 1 SP die to combine basic combat manoeuvres to a count of 3.|
+|Monster Attack III|||A robotic horror makes 4 basic combat manoeuvres as a main action|
 |||||
 |Skills|||"Fortify" +12, "Athletics" +19, "Climb": +19, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
-|Resistant|||Physical damage|
-|Immune|||"Poison" and "disease" damage|
+|Resistant|||Physical damage, fire damage, cold damage, light damage.|
+|Immune|||"Poison", "necrotic" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|

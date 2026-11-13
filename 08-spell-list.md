@@ -3871,10 +3871,10 @@ In addition, the caster can designate any number of entities as "protected". The
 ___
 ### Greater Freedom
 
-|Name|Freedom [Air, Spring, Water]|
+|Name|Greater Freedom [Air, Spring, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (24)|
+|MP Dice|6 (12)|
 |Target(s)|1 entity|
 |Casting time|"1 full round action" (6 hours + 20 minutes per 4MP dice)|-2(30)
 |Range|close|-1(29)
@@ -3886,9 +3886,9 @@ ___
 
 **Description**: The target gains immunity to: "paralysed", "possessed", "dominated", "immobilised", "incapacitated, "stunned", "catatonic", "grappled", "restrained", or "aphonic". Furthermore, its walk, swim, climb and fly speed cannot be reduced below its base speed for that modality by any means except the "crippled" conditioned.
 
-**Upcast**: For every MP die above 6, the duration increases by 1 hour.
+**Upcast (local)**: For every MP die above 6, the duration increases by 1 hour.
 
-**Global**: The spell lasts for 1 day, with an extra day of duration for every 4 MP dice above 16.
+**Global**: The spell lasts for 1 day, with an extra day of duration for every 2 MP dice above 12.
 
 ___
 ### Greater Storm Ward

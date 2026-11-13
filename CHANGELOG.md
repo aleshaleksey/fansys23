@@ -739,3 +739,4 @@ ___
 - Tweak [Promise](08-spell-list.md#promise) to make caster aware of it being broken.
 - Tweak [Mirage](08-spell-list.md#mirage) to allow tactile illusions at higher levels.
 - Add [Figment](08-spell-list.md#figment), which is a lower level "Mirage" spell.
+- Fix MP costs on [Greater Freedom](08-spell-list.md#greater-freedom).

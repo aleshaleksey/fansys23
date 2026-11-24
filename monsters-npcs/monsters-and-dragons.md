@@ -1539,6 +1539,7 @@ ___
 |Tail|+17|2d6+7|Reach 15ft|
 |Multi-attack II||||
 |Broad strike|||(1 SP die) useable only with tail attack|
+|[Great strike](../06-abilities.md#great-strike)|||A dragon can sacrifice up to 6 points from its attack bonus to deal an equal amount of extra damage|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1628,6 +1629,7 @@ ___
 |Grapple, Restrain, Throw, Sunder|+13|||
 |Multi-attack II||||
 |Broad strike|||(1 SP die) useable only with tail attack|
+|[Great strike](../06-abilities.md#great-strike)|||A dragon can sacrifice up to 4 points from its attack bonus to deal an equal amount of extra damage|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1704,6 +1706,7 @@ ___
 |Tail|+18|2d6+8|Reach 15ft|
 |Multi-attack II||||
 |Broad strike|||(1 SP die) useable only with tail attack|
+|[Great strike](../06-abilities.md#great-strike)|||A dragon can sacrifice up to 6 points from its attack bonus to deal an equal amount of extra damage|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1783,6 +1786,7 @@ ___
 |Tail|+14|1d6+7|Reach 10ft (long)|
 |Multi-attack II||||
 |Broad strike|||(1 SP die) useable only with tail attack|
+|[Great strike](../06-abilities.md#great-strike)|||A dragon can sacrifice up to 4 points from its attack bonus to deal an equal amount of extra damage|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1858,6 +1862,7 @@ ___
 |Tail|+17|2d6+7|Reach 15ft|
 |Multi-attack II||||
 |Broad strike|||(1 SP die) useable only with tail attack|
+|[Great strike](../06-abilities.md#great-strike)|||A dragon can sacrifice up to 6 points from its attack bonus to deal an equal amount of extra damage|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1948,6 +1953,7 @@ ___
 |Grapple, Restrain, Throw, Sunder|+13|||
 |Multi-attack II||||
 |Broad strike|||(1 SP die) useable only with tail attack|
+|[Great strike](../06-abilities.md#great-strike)|||A dragon can sacrifice up to 4 points from its attack bonus to deal an equal amount of extra damage|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -2025,6 +2031,7 @@ ___
 |Grapple, Restrain, Throw, Sunder|+16|||
 |Monster Attack|||The Earthbound dragon makes 3 attacks: 1 bite, 1 claws, 1 tail (must be a different target)|
 |Broad strike|||(1 SP die) useable only with tail attack|
+|[Great strike](../06-abilities.md#great-strike)|||A dragon can sacrifice up to 6 points from its attack bonus to deal an equal amount of extra damage|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -2106,6 +2113,7 @@ ___
 |Grapple, Restrain, Throw, Sunder|+16|||
 |Monster Attack|||The Earthbound dragon makes 3 attacks: 1 bite, 1 claws, 1 tail (must be a different target)|
 |Broad strike|||(1 SP die) useable only with tail attack|
+|[Great strike](../06-abilities.md#great-strike)|||A dragon can sacrifice up to 4 points from its attack bonus to deal an equal amount of extra damage|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.

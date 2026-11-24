@@ -674,7 +674,7 @@ ___
 |Light|||As a bonus action, a caretaker bot can light up a an area with a radius within 10ft of itself with bright light and a further 20ft (total 30ft) with dim light,|
 |||||
 |Senses|||A caretaker bot has no sense of smell|
-|[Low light vision](../06-abilities.md#low-light-vision)|||A caretaker bot can see in dim light almost as well as bright light, but cannot see in complete darkness.|
+|Senses|||[Blindsight 15ft](../06-abilities.md#blind-sight-i-vi), [Heat Sense 30ft](../06-abilities.md#heat-sense-i-v)|
 |Skills|||"Fortify" +2, "Sleight of Hand" +4, "Tinker" +3, "Appraise" -1, "Prospect" -1, "Observe" +2|
 |Resistant|||Physical damage|
 |Immune|||"Poison" and "disease" damage|
@@ -719,6 +719,7 @@ ___
 |Interception|+16|||
 |Multiattack I|||A greater caretaker bot can make two basic combat manoeuvres as an attack action.|
 |||||
+|Senses|||[Blindsight 30ft](../06-abilities.md#blind-sight-i-vi), [Heat Sense 60ft](../06-abilities.md#heat-sense-i-v)|
 |Skills|||"Fortify" +18, "Athletics" +11, "Sleight of Hand" +10, "Tinker" +10, "Appraise" +8, "Academics" +6, "Prospect" +4, "Observe" +8|
 |Resistant|||Physical damage|
 |Immune|||"Poison" and "disease" damage|
@@ -765,6 +766,8 @@ ___
 |[Sprinter](../06-abilities.md#sprinter)|||A robotic steed can run x3 times its base movement speed and spring x5 times its movement speed.|
 |[Mighty I](../06-abilities.md#mighty-i)|||The carrying capacity of robotic steeds is abnormally high.|
 |[Mighty II](../06-abilities.md#mighty-ii)|||The carrying capacity of robotic steeds is abnormally high.|
+|||||
+|Senses|||[Heat Sense 30ft](../06-abilities.md#heat-sense-i-v), [Low Light Vision](../06-abilities.md#low-light-vision)|
 |Skills|||"Athletics" +12, "Climb": +9, "Acrobatics" +3, "Prospect" +4, "Observe" +6|
 |Resistant|||Physical damage|
 |Immune|||"Poison" and "disease" damage|
@@ -810,6 +813,7 @@ ___
 |[Riposte](../06-abilities.md#riposte)|||A robotic solider can immediately make a targeted weapon attack against the attacking foe upon successfully parrying|
 |[Swift Strike](../06-abilities.md#swift-strike)|||A robotic soldier's attacks of opportunity is resolved before the initiating attack.|
 |||||
+|Senses|||[Heat Sense 30ft](../06-abilities.md#heat-sense-i-v), [Low Light Vision](../06-abilities.md#low-light-vision)|
 |Skills|||"Fortify" +12, "Athletics" +12, "Climb": +9, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
 |Resistant|||Physical damage|
 |Immune|||"Poison" and "disease" damage|
@@ -858,6 +862,7 @@ ___
 |Combined Manoeuvre II|||A robotic horror can expend 1 SP die to combine basic combat manoeuvres to a count of 3.|
 |Monster Attack III|||A robotic horror makes 4 basic combat manoeuvres as a main action|
 |||||
+|Senses|||[Blindsight 30ft](../06-abilities.md#blind-sight-i-vi), [Heat Sense 60ft](../06-abilities.md#heat-sense-i-v), [Low Light Vision](../06-abilities.md#low-light-vision)|
 |Skills|||"Fortify" +12, "Athletics" +19, "Climb": +19, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
 |Resistant|||Physical damage, fire damage, cold damage, light damage.|
 |Immune|||"Poison", "necrotic" damage|

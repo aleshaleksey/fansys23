@@ -1038,7 +1038,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a [level I beast](monsters-npcs/beasts-and-plants.md#beasts) to faithfully serve and fight for you. The beast understands simple gesticulated commands and carries them out to the best of its ability. When the spell ends the beast, or its remains, are returned to its origin.
+**Description**: Summons a [level 1 beast](monsters-npcs/beasts-and-plants.md#beasts) to faithfully serve and fight for you. The beast understands simple gesticulated commands and carries them out to the best of its ability. When the spell ends the beast, or its remains, are returned to its origin.
 
 **Special**:
 
@@ -1517,7 +1517,7 @@ ___
 |Concentration|local|+3
 |Save|-|
 
-**Description**: Summons a [level I flame sprite](monsters-npcs/spirits.md#flame-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities. The sprite appears at the end of the caster's turn and may act *next round*  on the caster's initiative, before or after the caster's turn. It is not surprised when it appears.
+**Description**: Summons a [level 1 flame sprite](monsters-npcs/spirits.md#flame-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities. The sprite appears at the end of the caster's turn and may act *next round*  on the caster's initiative, before or after the caster's turn. It is not surprised when it appears.
 
 **Special**:
 
@@ -1551,7 +1551,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a [level I earth gnome](monsters-npcs/spirits.md#gnome) to faithfully serve and fight for you. The gnome communicates with its summoner and other earth spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level 1 earth gnome](monsters-npcs/spirits.md#gnome) to faithfully serve and fight for you. The gnome communicates with its summoner and other earth spirits and is intelligent enough to understand gestures of other mortal entities.
 
 **Special**:
 
@@ -1581,7 +1581,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a [level I water sprite](monsters-npcs/spirits.md#water-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level 1 water sprite](monsters-npcs/spirits.md#water-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
 
 **Special**:
 
@@ -1611,7 +1611,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a [level I wind sprite](monsters-npcs/spirits.md#wind-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other wind spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level 1 wind sprite](monsters-npcs/spirits.md#wind-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other wind spirits and is intelligent enough to understand gestures of other mortal entities.
 
 **Special**:
 
@@ -1761,7 +1761,7 @@ ___
 |Concentration|No|
 |Save|-|
 
-**Description**: Animate a corpse of a "medium" sized mortal, to become a level III corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 6 levels of non-intelligent undead for 6 hours.
+**Description**: Animate a corpse of a "medium" sized mortal, to become a level 3 corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 6 levels of non-intelligent undead for 6 hours.
 
 **Special**:
 
@@ -1770,9 +1770,9 @@ ___
 - The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing..
 - The undead animates at the start of the caster's *next* turn.
 
-**Upcast**: For every MP dice added above 3 (2MP dice above 6 for global), the caster may either animate an extra corpse as a level III undead, assert control over an extra 6 levels of undead, or increase the level of the created undead by 2, or of the controlled undead by 4. At 4 MP dice, "large" sized undead can be created. At 5 MP dice, "huge" sized undead can be created.
+**Upcast**: For every MP dice added above 3 (2MP dice above 6 for global), the caster may either animate an extra corpse as a level 3 undead, assert control over an extra 6 levels of undead, or increase the level of the created undead by 2, or of the controlled undead by 4. At 4 MP dice, "large" sized undead can be created. At 5 MP dice, "huge" sized undead can be created.
 
-**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 2MP dice above 6, the caster may create an extra level III undead, assert control over 6 levels of undead, or increase the level of a created undead by 2 or controlled undead by 4.
+**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 2MP dice above 6, the caster may create an extra level 3 undead, assert control over 6 levels of undead, or increase the level of a created undead by 2 or controlled undead by 4.
 
 (Summon spell rating is controversial)
 
@@ -1792,7 +1792,7 @@ ___
 |Concentration|local|+3
 |Save|-|
 
-**Description**: Animate a plant with at least a size "medium". The plant serves and fights faithfully for the one who animated it. The plant becomes a level III plant and can communicate with its summoner and other sentient plants. At the end of the spell, the plant becomes a normal plant again.
+**Description**: Animate a plant with at least a size "medium". The plant serves and fights faithfully for the one who animated it. The plant becomes a level 3 plant and can communicate with its summoner and other sentient plants. At the end of the spell, the plant becomes a normal plant again.
 
 **Special**:
 
@@ -2004,7 +2004,7 @@ ___
 
 **Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs physical damage from weapons with a material level of I, and resistance to cold/ice attacks that originate outside of the barrier. In addition, items and entities in contact with the barrier can take damage once per turn as follows:
 
-- Any weapon of material level I used to attack through the barrier takes 2 damage dice of fire damage.
+- Any weapon of material level 1 used to attack through the barrier takes 2 damage dice of fire damage.
 - Any entity making an unarmed melee attack through the barrier or passing through it takes 3d8+[Sup] fire damage. This damage is also taken by any entity on the perimeter of the barrier when the spell first takes effect.
 
 **Limitation**:
@@ -2182,15 +2182,15 @@ ___
 |Damage|2d8+[Sup] Fire|
 |Save|CON|
 
-**Description**: The caster chooses up to 4 objects, each no larger than "medium", or materials occupying a volume of no more than 4 contiguous 5ft cubes. The targets heat up rapidly and if its [material is of level II](12-equipment-economy.md#material-level) or lower, take 1 dice of damage (that bypasses damage reduction) every round as they melt (and potentially catch fire, or set fire to materials they are in contact with).
+**Description**: The caster chooses up to 4 objects, each no larger than "medium", or materials occupying a volume of no more than 4 contiguous 5ft cubes. The targets heat up rapidly and if its [material is of level 2](12-equipment-economy.md#material-level) or lower, take 1 dice of damage (that bypasses damage reduction) every round as they melt (and potentially catch fire, or set fire to materials they are in contact with).
 
 If the target object/material is in contact with an entity at the start of its turn, then the entity must succeed on a CON save or take 2d8 + [Sup] fire damage (half on successful save).
 
 **Special**: If at least one of the objects is worn (but not held or used) by an entity with a CHA score, the spell is subject to concentration rules.
 
-**Upcast (local only)**: At 4 MP dice the spell affects level III materials. At 7 MP dice, the spell affects level IV materials. In addition for every MP die above 3rd, the objects and materials that are affected take an extra die of damage per round, while entities take an additional 1d8 of damage per round.
+**Upcast (local only)**: At 4 MP dice the spell affects level 3 materials. At 7 MP dice, the spell affects level 4 materials. In addition for every MP die above 3rd, the objects and materials that are affected take an extra die of damage per round, while entities take an additional 1d8 of damage per round.
 
-**Global**: The spell targets all materials/objects (of material level II or lower) in a 50ft radius and lasts for 1 hour.
+**Global**: The spell targets all materials/objects (of material level 2 or lower) in a 50ft radius and lasts for 1 hour.
 
 
 ___
@@ -2483,7 +2483,7 @@ ___
 |Concentration|local|-3(-4)
 |Save|-|
 
-**Description**: Creates a level IV golem to faithfully serve and fight for the caster. The golem can communicate with its creator and other geomancers and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
+**Description**: Creates a level 4 golem to faithfully serve and fight for the caster. The golem can communicate with its creator and other geomancers and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
 
 **Special**: When the spell ends, the golem runs out of energy but is not destroyed. Recharging a golem is accomplished by recasting the spell, but costs only half of the MP dice cost of creating it (rounded up).
 
@@ -3117,7 +3117,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a level V "spirit" or "fey" to faithfully serve and fight for you. The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Spirits are usually intelligent enough to understand the gestures and emotions of sentient beings.
+**Description**: Summons a level 5 "spirit" or "fey" to faithfully serve and fight for you. The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Spirits are usually intelligent enough to understand the gestures and emotions of sentient beings.
 
 **Special**:
 
@@ -3372,7 +3372,7 @@ ___
 **Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 10 vs physical and cold/ice attacks, regardless of their origin. In addition they have advantage on saves against the effects of fire spells, and those caused by elemental fire. Furthermore, the caster specifies "contain", "exclude" or "both". This gives the following effects:
 
 - Any entity on the perimeter of the area of effect, or within 5ft of it, when the ward is activated takes 4d8+[Sup] fire damage unless it succeeds a DEX save (for half).
-- Any entity or object of material level of III or lower that attempts to cross (including in making a melee attack/martial manoeuvre) the perimeter takes 4d8+[Sup] fire damage (this damage can only be taken once per round).
+- Any entity or object of material level of 3 or lower that attempts to cross (including in making a melee attack/martial manoeuvre) the perimeter takes 4d8+[Sup] fire damage (this damage can only be taken once per round).
   - If the ward was called as "contain", this damage occurs when an entity or object crosses out of the ward.
   - If the ward was called as "exclude", this damage occurs when an entity or object crosses into the ward.
 - Any entities aligned with "water" can only enter (or leave) the area if they succeed a CHA save.
@@ -4023,7 +4023,7 @@ ___
 |Concentration|Yes(No)|
 |Save|-|
 
-**Description**: A form of pact magic: All corpses of huge or smaller ("huge") within 50ft of the offering (the offering must be within 30ft of the caster) and which are satisfied with the offering (see "special") are animated and become level III corporeal undead. The undead is capable of performing any reflexive or rote task it knew in life, if its body still supports that functionality. 
+**Description**: A form of pact magic: All corpses of huge or smaller ("huge") within 50ft of the offering (the offering must be within 30ft of the caster) and which are satisfied with the offering (see "special") are animated and become level 3 corporeal undead. The undead is capable of performing any reflexive or rote task it knew in life, if its body still supports that functionality. 
 
 The undead faithfully follow **the single, initial command** that the caster makes, however the spirits animating the corpses retain their original allegiances. If the command is **completely** fulfilled by the end of the duration of the spell, the animated dead crumble to dust.
 
@@ -4277,13 +4277,13 @@ ___
 |Limitation|Special (see below)|-4
 |Save|CHA|
 
-**Description**: Summon a level VIII "elemental" of an element corresponding to the element of the spell to faithfully serve and fight for you. The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Elementals are often intelligent enough to understand the gestures and movements of mortals, but seldom understand their emotions and intentions.
+**Description**: Summon a level 8 "elemental" of an element corresponding to the element of the spell to faithfully serve and fight for you. The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Elementals are often intelligent enough to understand the gestures and movements of mortals, but seldom understand their emotions and intentions.
 
 **Limitation**:
 
 - The elemental summoned corresponds to the spellcasting type, thus if the spell is cast with "Spellcasting: Elemental(Fire)", the elemental will be of type "fire".
 - If the caster is aligned to the element opposite to the element of the elemental, it makes a CHA save vs the caster. On success it breaks free of the caster's control and becomes hostile to the caster and their allies.
-- This spell can be cast with "Spellcasting: Nature", however, in this case the elemental is level VI instead of level VIII, and one can only summon elementals from their element. More precisely:
+- This spell can be cast with "Spellcasting: Nature", however, in this case the elemental is level 6 instead of level 8, and one can only summon elementals from their element. More precisely:
   - For a water elemental the caster needs a stream, pond, lake or sea.
   - For a fire elemental the caster needs a fire of at least medium size.
   - For an earth elemental, the caster needs at least 4 squares (10ft x 10ft) unworked earth.
@@ -4979,7 +4979,7 @@ ____
 - If channelled positively:
   - The target becomes immune to poison and disease for the duration of the spell.
   - The target becomes immune to "poisoned", "diseased", "catatonic", "bleeding", "paralysed" and "dying" (it becomes unconscious instead).
-  - Once during the duration of the spell the target can regain all HP, SP and MP as a reaction. Alternatively, it can forgo regaining the SP and MP and be cured of all conditions affecting it instead. IIn either case, if it does this, the spell ends.
+  - Once during the duration of the spell the target can regain all HP, SP and MP as a reaction. Alternatively, it can forgo regaining the SP and MP and be cured of all conditions affecting it instead. In either case, if it does this, the spell ends.
 - If channelled negatively:
   - The target must succeed a CON save or suffer 5d6 entropic damage. In addition its SP and MP drops to zero. It also becomes "catatonic" for the duration of the spell (can make repeated saves at the start of its turn). On a successful save, the target suffer half of the entropic damage, and loses only half of its SP and MP. It does not become catatonic.
 - Negative and positive channelling is reversed for undead.

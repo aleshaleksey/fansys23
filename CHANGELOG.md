@@ -730,6 +730,7 @@ ___
 ### Abilities
 - [Bard Song](06-abilities.md#bard-song-i-iv) is strengthened a little (roll advantage is obtained one level lower).
 - [Elementalism](06-abilities.md#elementalism-elemental-blast): Add "necrotic" "element" (not an element, but close enough).
+- [Debilitating Strike](06-abilities.md#debilitating-strike): Now follows general rules (save at the start of each turn to end).
 
 ### Skills
 - Adjust thresholds for [Knowledge: Arcana](05-skills.md#knowledge) and [Track](05-skills.md#track) to make them make a bit more sense.

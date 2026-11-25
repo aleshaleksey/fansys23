@@ -393,8 +393,8 @@ ____
 
 1. Declare the ability and make the attack.
 2. If you hit, expend the SP dice.
-3. The target must succeed a CON save against your WIS o INT threshold (as you choose), at the start of its turn.
-3. On a fail, the target is affected until the end of its *next* turn.
+3. The target must succeed a CON save against your WIS o INT threshold (as you choose), at the start of its turn, on a fail, the target suffers the condition.
+4. The target may attempt a CON save at the start of each of its subsequent turns to end the effect.
 
 **Prerequisites**: There is an SP prerequisite and cost on all debilitating strikes.
 

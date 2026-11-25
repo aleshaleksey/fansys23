@@ -845,7 +845,7 @@ ___
 
 - A familiar has an intelligence of 5 + [Bind Familiar level] x 2.
 - A familiar has HP, MP, and SP dependant on the "Bind Familiar" level.
-- A familiar retains the HiT of its base creature but uses your saves, has additional resistances based on the spellcasting that was used as a prerequisite to bind it.
+- A familiar retains the HiT of its base creature but uses your saves, has additional resistances and abilities based on the spellcasting that was used as a prerequisite to bind it. If the familiar's ability requires the use of MP/SP dice, it can use no more than the "Bind Familiar" level of its binder, and expends its binder's SP/MP dice to do so.
 - A familiar has an empathic link with its binder to a distance based on the "Bind familiar" level.
 
 **Prerequisites**: To bind a familiar the entity must have at least one "spellcasting" ability.
